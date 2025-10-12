@@ -2,8 +2,6 @@
 
 ![Cover](docs/assets/cover.png)
 
-> An in-depth investigation into real-world AI systems through the lens of bias, transparency, and responsible design.
-
 ## 🧠 About the Project
 
 **AI Ethics Casefiles** is a critical analysis of two real-world AI systems, exploring their ethical implications and proposing actionable improvements.  
