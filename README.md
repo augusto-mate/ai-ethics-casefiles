@@ -1,49 +1,51 @@
-# Ethics Casefiles
+# ⚖️ AI Ethics Casefiles  
+*A portfolio project exploring bias, transparency, and responsible design in real-world AI systems.*
 
-![Cover](docs/assets/cover.png)
+## 🔍 Overview
 
-## 🧠 About the Project
+This repository presents a curated analysis of ethical issues in AI, focusing on two real-world systems where algorithmic bias and transparency challenges emerged. It combines academic research, practical demonstrations, and professional design to showcase applied ethical thinking in AI.
 
-**AI Ethics Casefiles** is a critical analysis of two real-world AI systems, exploring their ethical implications and proposing actionable improvements.  
-Originally created as part of an AI ethics program, this enhanced version turns that academic submission into a professional portfolio asset with code, visuals, and web-ready content.
+## 📁 What’s Inside
 
-## 🔎 What's Inside
-
-| Component       | Description |
-|----------------|-------------|
-| 📄 [Report](docs/report.md) | Detailed Markdown version of the case study |
-| 🧪 [Bias Demo](src/bias-demo.ipynb) | A simple notebook demonstrating algorithmic bias |
-| 🎞️ [Slides](slides/ai-ethics-casefiles-slides.pdf) | Presentation for stakeholders and non-technical audiences |
-| 🌐 [Web Version](site/) *(optional)* | Interactive online version of the report (e.g. MkDocs) |
+- `src/bias-demo.ipynb` — Jupyter notebook demonstrating gender bias in algorithmic decisions  
+- `slides/ai-ethics-casefiles.md` — Presentation for stakeholders and non-technical audiences   
+- `docs/report.md` — Written analysis of case studies, with citations and ethical insights  
+- `assets/` — Visuals and resources used throughout the project  
 
 ## 🚀 Getting Started
 
-Clone the repo:
+Clone the repository and open the notebook:
 
 ```bash
 git clone https://github.com/Augusto047/ai-ethics-casefiles.git
-cd ai-ethics-casefiles
-```
-
-To view the notebook:
-
-```bash
-cd src
+cd ai-ethics-casefiles/src
 jupyter notebook bias-demo.ipynb
 ```
+To view the slides:
 
-## 🚧 Ethical Assumptions & Limitations
+```bash
+cd ../slides
+```
 
-This project uses small-scale, illustrative datasets that may not reflect real-world complexity. The bias detection shown is meant to demonstrate general principles, not to serve as a production-ready audit. Assumptions include that datasets carry historical bias and that fairness can be evaluated using basic metrics.
+Use [Marp](https://marp.app/) to render `ai-ethics-casefiles.md`.
 
-For real-world deployments, more rigorous validation and stakeholder consultation are required.
+## ⚠️ Limitations
 
-## 📖 License
+This work is intended for educational and illustrative purposes only. 
 
-This project is licensed under the [MIT License](LICENSE).
+- The dataset used in the notebook is synthetic and small-scale
+- The analysis focuses on specific ethical issues and is not exhaustive
+- Case study details were reconstructed from publicly available information
 
-## ✍️ Authors
+Transparency about these limitations supports responsible and honest communication in AI ethics.
 
-- **Augusto Mate**
-- Inspired by work from *AI Safari Camps 2025*.
+## 👤 Author
 
+Developed by **[Augusto047](https://github.com/Augusto047)**  
+MIT License — see [LICENSE](LICENSE) for details.
+
+## 📚 References
+
+- [Fairness and Machine Learning](https://fairmlbook.org/) by Barocas & Hardt
+- [DARPA: Explainable AI](https://darpa.mil/program/explainable-artificial-intelligence)
+- [AI Ethics Guidelines Global Inventory](https://algorithmwatch.org/en/project/ai-ethics-guidelines-global-inventory/)
