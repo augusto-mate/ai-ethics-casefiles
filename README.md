@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Scale_of_justice_2.svg" width="57" align="left" style="margin-right: 20px; alt="Scales of Justice Icon" />
-</p>
-
-# AI Ethics Casefiles
+# Ethics Casefiles
 
 ![Cover](docs/assets/cover.png)
 
@@ -37,6 +33,12 @@ To view the notebook:
 cd src
 jupyter notebook bias-demo.ipynb
 ```
+
+## 🚧 Ethical Assumptions & Limitations
+
+This project uses small-scale, illustrative datasets that may not reflect real-world complexity. The bias detection shown is meant to demonstrate general principles, not to serve as a production-ready audit. Assumptions include that datasets carry historical bias and that fairness can be evaluated using basic metrics.
+
+For real-world deployments, more rigorous validation and stakeholder consultation are required.
 
 ## 📖 License
 
