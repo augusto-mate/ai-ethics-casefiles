@@ -1,77 +1,102 @@
-# 🧾 AI Ethics Casefiles — Report
-
-_Augusto Mate, 2025_
-
----
-
-## 📘 Introduction
-
-This case study explores two real-world AI systems through a lens of ethical analysis,
-with a focus on bias, transparency, and fairness. The aim is to identify
-problematic patterns and suggest responsible alternatives grounded in academic and real-world best practices.
+# AI Ethics Casefiles — Report  
+*Augusto Mate | 2025*
 
 ---
 
-## 📂 Case 1: COMPAS — Algorithmic Risk Assessment 
+## 1. Introduction
 
-> “Predicting recidivism isn’t neutral when historical data is biased.”
+Artificial Intelligence is increasingly used to inform decisions in domains such as hiring, healthcare, finance, and criminal justice. While these systems offer efficiency and scale, they also raise critical ethical concerns, particularly around bias, fairness, and explainability.
 
-- **System**: COMPAS (Correctional Offender Management Profiling)
-- **Context**: Used in U.S. courts to assess likelihood of reoffending
-- **Ethical Issues**:
-  - Racial bias in training data
-  - Lack of transparency
-  - Opaque decision logic
-
-### Ethical Evaluation
-
-Using principles from AI4People and the EU Ethics Guidelines, the COMPAS system fails in:
-
-- **Fairness**: Reinforces systemic bias
-- **Transparency**: Proprietary algorithm resists scrutiny
-- **Accountability**: Judges rely on automated scores with minimal oversight
-
-### Suggested Redesign
-
-- Replace opaque scoring with interpretable models (e.g., logistic regression with weights shown)
-- Require local explainability (e.g., SHAP values)
-- Independent audits and open datasets
+This report analyzes two real-world AI systems that exhibited ethical issues and discusses them in light of responsible AI principles. A demo notebook and slide deck accompany the analysis for applied illustration.
 
 ---
 
-## 📁 Case 2: Hiring Algorithm by Amazon (Discontinued)
+## 2. Case Study 1 — Gender Bias in Hiring System
 
-> “An algorithm trained on past hires mirrors past biases.”
+### Context
 
-- **System**: Internal hiring tool used between 2014–2017
-- **Problem**: Penalized resumes with “women’s” indicators (e.g., women’s college)
-- **Outcome**: Discontinued after bias detection
+A company developed an automated resume screening system trained on past hiring data. Although gender was not an explicit feature, the model learned to favor male candidates by identifying proxies, such as male-dominated job titles and pronouns.
 
-### Ethical Evaluation
+### Ethical Concerns
 
-Fails in:
+- **Proxy Bias**: Excluding protected attributes doesn’t prevent discrimination if proxies remain.
+- **Opacity**: Stakeholders could not understand or challenge decisions.
+- **Disparate Impact**: Qualified female candidates were unfairly penalized.
 
-- **Justice and fairness**
-- **Human oversight**
-- **Inclusive design**
+### Discussion
 
----
-
-## 🧭 Conclusion
-
-AI systems, even unintentionally, can amplify existing biases and exclusions.
-Ethical evaluations should not be afterthoughts, but foundational to system design.
-
-### Key Takeaways
-
-- Data is not neutral — neither are models
-- Interpretability is key to transparency
-- Accountability frameworks must exist beyond code
+The system reflects historical discrimination embedded in past hiring data. Removing explicit gender features proved insufficient to eliminate bias. Lack of transparency and fairness audits contributed to deployment risks.
 
 ---
 
-## 📚 References
+## 3. Case Study 2 — Bias in Medical Risk Prediction
 
-- AI4People (Floridi et al.)
-- EU Ethics Guidelines for Trustworthy AI
-- ProPublica (2016). Machine Bias.
+### Context
+
+A health analytics system predicted patient risk levels to allocate care management. The model significantly underpredicted risk for Black patients, due to reliance on healthcare cost as a proxy for health need.
+
+### Ethical Concerns
+
+- **Historical Bias**: Data reflected systemic underinvestment in Black communities.
+- **Measurement Bias**: Cost does not equal care need.
+- **Unintended Harm**: Patients most in need received fewer resources.
+
+### Discussion
+
+This case highlights how “race-neutral” designs can encode structural inequality. Without community input or contextual validation, algorithms can deepen disparities rather than correct them.
+
+---
+
+## 4. Practical Demonstration
+
+A simplified demo (`bias-demo.ipynb`) replicates the concept of bias using a toy dataset. The logistic regression model trained on gender and scores illustrates how bias emerges even in minimal settings.
+
+> Educational tools like this help surface ethical questions in tangible ways.
+
+---
+
+## 5. Transparency and Explainability
+
+Both cases demonstrated limited transparency:
+
+- Models were black-box systems
+- Stakeholders lacked interpretability tools
+- No model cards or explanations were shared
+
+Efforts such as LIME, SHAP, and model cards can support transparency, but require organizational support and ethical intent to be meaningful.
+
+---
+
+## 6. Recommendations
+
+- Perform **bias audits** on datasets and models before deployment  
+- Ensure **interpretability tools** are accessible to affected stakeholders  
+- Engage **cross-disciplinary teams**, including ethicists and impacted communities  
+- Create and publish **model documentation** (e.g. datasheets, cards)
+
+---
+
+## 7. Limitations
+
+- The analysis is based on publicly reported cases  
+- No access to original model code or datasets  
+- The demo uses a synthetic, small-scale dataset  
+- Focuses on bias and transparency; other principles (e.g. autonomy, justice) are not covered in depth
+
+---
+
+## 8. References
+
+- Obermeyer et al. (2019). *Dissecting racial bias in an algorithm used to manage the health of populations*. Science.  
+- Crawford, K. (2017). *The Trouble with Bias* — NIPS Conference Keynote  
+- Barocas, Hardt, & Narayanan. (2023). *Fairness and Machine Learning*
+
+---
+
+## 9. Appendix
+
+See accompanying materials:
+
+- `src/bias-demo.ipynb`: toy model illustrating algorithmic bias  
+- `slides/ai-ethics-casefiles.md`: slide deck summarizing key findings  
+- `README.md`: overview and setup instructions  
