@@ -1,10 +1,14 @@
-# 🧠 AI Ethics Casefiles
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Scale_of_justice_2.svg" width="57" align="left" style="margin-right: 20px; alt="Scales of Justice Icon" />
+</p>
+
+# AI Ethics Casefiles
 
 ![Cover](docs/assets/cover.png)
 
 > An in-depth investigation into real-world AI systems through the lens of bias, transparency, and responsible design.
 
-## 📚 About the Project
+## 🧠 About the Project
 
 **AI Ethics Casefiles** is a critical analysis of two real-world AI systems, exploring their ethical implications and proposing actionable improvements.  
 Originally created as part of an AI ethics program, this enhanced version turns that academic submission into a professional portfolio asset with code, visuals, and web-ready content.
