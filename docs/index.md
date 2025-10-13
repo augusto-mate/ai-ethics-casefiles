@@ -1,6 +1,10 @@
-# AI Ethics Casefiles
+# Ethics Casefiles
 
-_A curated portfolio exploring algorithmic bias, transparency, and responsible AI design._
+<p align="center">
+  <img src="assets/cover.png" alt="AI Ethics Casefiles" width="100%">
+</p>
+
+> _A curated portfolio exploring algorithmic bias, transparency, and responsible AI design._
 
 ## 🔍 Overview
 
@@ -8,12 +12,12 @@ This project analyzes real-world failures in AI ethics, provides visual explanat
 
 - ✅ Two real-world case studies
 - ⚖️ Bias demo with toy data
-- 🧠 Marp slide deck
+- 🧠 Slide deck
 - 📄 Analytical report
 
 ## 📂 Contents
 
-- [Notebook: bias-demo.ipynb](../src/bias-demo.ipynb)
+- [Notebook (Jupyter)](../src/bias-demo.ipynb)
 - [Slides (Marp)](../slides/ai-ethics-casefiles.md)
 - [Full Report](../docs/report.md)
 - [Repository](https://github.com/Augusto047/ai-ethics-casefiles)
@@ -21,4 +25,3 @@ This project analyzes real-world failures in AI ethics, provides visual explanat
 ## 👤 Author
 
 *Augusto Mate · 2025*
-
