@@ -1,16 +1,25 @@
+
 # ⚖️ AI Ethics Casefiles  
-*A portfolio project exploring bias, transparency, and responsible design in real-world AI systems.*
 
-## 🔍 Overview
+[![GitHub Pages Index](https://img.shields.io/badge/🔗%20Online-GitHub%20Pages-blue?style=for-the-badge&logo=github)](docs/index.md)
 
-This repository presents a curated analysis of ethical issues in AI, focusing on two real-world systems where algorithmic bias and transparency challenges emerged. It combines academic research, practical demonstrations, and professional design to showcase applied ethical thinking in AI.
+*A portfolio exploring real-world challenges in AI ethics through practical demonstrations and actionable recommendations.*
 
-## 📁 What’s Inside
+## 📌 Project Overview
+
+AI systems increasingly shape decisions in hiring, healthcare, and public policy. This project investigates two ethically controversial cases — one in recruitment, the other in healthcare — and features an interactive demonstration of algorithmic bias.
+
+## 📂 What’s Inside
 
 - `src/bias-demo.ipynb` — Jupyter notebook demonstrating gender bias in algorithmic decisions  
 - `slides/ai-ethics-casefiles.md` — Presentation for stakeholders and non-technical audiences   
 - `docs/report.md` — Written analysis of case studies, with citations and ethical insights  
-- `assets/` — Visuals and resources used throughout the project  
+- `assets/` — Stores the cover image used as a banner in the documentation
+- `docs/export/` — PDF versions of notebook, slides, and report
+
+## 📽️ Slides
+
+[![View the Slide Deck](https://img.shields.io/badge/🔗%20View-Slides-blue?style=for-the-badge)](slides/ai-ethics-casefiles.md)
 
 ## 🚀 Getting Started
 
@@ -39,13 +48,13 @@ This work is intended for educational and illustrative purposes only.
 
 Transparency about these limitations supports responsible and honest communication in AI ethics.
 
-## 👤 Author
-
-Developed by **[Augusto047](https://github.com/Augusto047)**  
-MIT License — see [LICENSE](LICENSE) for details.
-
 ## 📚 References
 
-- [Fairness and Machine Learning](https://fairmlbook.org/) by Barocas & Hardt
-- [DARPA: Explainable AI](https://darpa.mil/program/explainable-artificial-intelligence)
 - [AI Ethics Guidelines Global Inventory](https://algorithmwatch.org/en/project/ai-ethics-guidelines-global-inventory/)
+- [AI Now Institute Publications](https://ainowinstitute.org/publications)
+- [DARPA: Explainable AI](https://darpa.mil/program/explainable-artificial-intelligence)
+
+## 👤 Author
+
+Developed by **[Augusto047](https://github.com/Augusto047)**.  
+Available under MIT License — details in [LICENSE](LICENSE).
