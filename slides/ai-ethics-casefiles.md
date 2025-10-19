@@ -112,5 +112,6 @@ When they fail, consequences are not just technical — they're human.
 
 ## Thank you!  
 *Explore the full project:*  
-[github.com/Augusto047/ai-ethics-casefiles](https://github.com/Augusto047/ai-ethics-casefiles)
+[github.com/augusto-mate/ai-ethics-casefiles](https://github.com/augusto-mate/ai-ethics-casefiles)
+
 
