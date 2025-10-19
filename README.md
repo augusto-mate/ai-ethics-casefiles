@@ -26,7 +26,7 @@ AI systems increasingly shape decisions in hiring, healthcare, and public policy
 Clone the repository and open the notebook:
 
 ```bash
-git clone https://github.com/Augusto047/ai-ethics-casefiles.git
+git clone https://github.com/augusto-mate/ai-ethics-casefiles.git
 cd ai-ethics-casefiles/src
 jupyter notebook bias-demo.ipynb
 ```
@@ -56,5 +56,5 @@ Transparency about these limitations supports responsible and honest communicati
 
 ## 👤 Author
 
-Developed by **[Augusto047](https://github.com/Augusto047)**.  
-Available under MIT License — details in [LICENSE](LICENSE).
+Developed by **[Augusto Mate](https://github.com/augusto-mate)**  
+Available under MIT License — details in [LICENSE](LICENSE)
