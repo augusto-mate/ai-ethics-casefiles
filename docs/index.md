@@ -22,7 +22,7 @@ An analysis of real-world ethical failures in AI, supported by visual explanatio
 - [Notebook (bias-demo.ipynb)](../src/bias-demo.ipynb)
 - [Slide deck (Marp)](../slides/ai-ethics-casefiles.md)
 - [Full Report](../docs/report.md)
-- [Repository](https://github.com/Augusto047/ai-ethics-casefiles)
+- [Repository](https://github.com/augusto-mate/ai-ethics-casefiles)
 
 ## Author
 
